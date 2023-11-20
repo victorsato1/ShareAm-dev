@@ -29,6 +29,10 @@
 body{
   background: #22074A;
 }
+/* SIDE BAR GOES HERE */
+
+
+/* STOP HERE!! */
 
 .r-side{
   margin-top: 53px;
@@ -38,7 +42,7 @@ body{
   background-color: rgb(255, 255, 255);
 }
 .cont{
-  height: 38.5vh;
+  height: 39.5vh;
   margin-top: 10px;
   margin-left: 53px;
   margin-right: auto;
@@ -48,17 +52,16 @@ body{
 }
 .img-name{
   width: 63px;
-  height: 60px;
+  height: 58px;
   border-radius: 50%;
 }
 .p-round2{
-  margin-top: 16.5%;
   margin-left: 2%;
 }
 .name{
   color: #22074A;
   margin-left: 79px;
-  margin-top: -100px;
+  margin-top: -59px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -79,7 +82,7 @@ height: 139.19px;
 margin-top: 60px;
 margin-left: 53px;
 margin-right: auto;
-margin-bottom: 80px;
+margin-bottom: 110px;
 width: 90%;
 }
 .bio{
@@ -87,7 +90,7 @@ color: #22074A;
 font-weight: bold;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 17px;
-margin-bottom: 10px;
+margin-bottom: 20px;
 }
 #bio{
 width: 100%;
@@ -122,17 +125,86 @@ transition: all 1s ease-in 0.5s;
 font-weight: lighter;
 font-family: Arial, Helvetica, sans-serif;
 }
-#save:hover{
-cursor: pointer;
-background-color: blue;
-}
 
 /* Next Line of code, Display Part */
 
 .cont3{
-height: 939.19px;
+height: 439.19px;
 margin: auto;
 align-items: center;
-width: 84%;
-background: lightgray;
+width: 94%;
+}
+.column-conts, .column-conts-2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 7%;
+}
+.row-1, .row-2, .row-3, .row-4{
+  width: 50%;
+  height: 17vh;
+}
+#display{
+margin-left: 11%;
+width: 70%;
+height: 45%;
+border-radius: 5px;
+border-color: lightgray;
+color: gray;
+padding-left: 10px;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+#display:focus{
+outline: none;
+}
+#display::placeholder{
+color: gray;
+padding-left: 10px;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+}
+#change1, #change2, #change3{
+color: white;
+background-color: darkblue;
+position: relative;
+right: 100px;
+padding: 7px 15px;
+border-radius: 75px;
+border: 2px solid white;
+font-size: 10px;
+transition: all 1s ease-in 0.5s;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+}
+.cdn{
+margin-left: 11%;
+color: #22074A;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+margin-bottom: 20px;
+}
+#camera{
+   text-align: center;
+margin-top: 7.5%;
+  color: #22074A;
+  font-size: 23px;
+}
+.add{
+width: 100%;
+margin-right: 80%;
+color: #22074A;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+#arrow{
+  margin-top: 10px;
+  margin-left: 13px;
+    color: black;
+  font-size: 23px;
 }
