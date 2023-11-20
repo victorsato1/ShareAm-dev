@@ -5,34 +5,62 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Profile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/profile.css">
     </head>
 <body>
-    <section class="left-side">
-        <div class="all-l-side">
-            <div class="p-round">
-               <img src="/src/assets/images/dice.jpg">
-            </div>
-                <ul>
-                    <li><a class="hom" href="#">Home</a></li>
-                    <li><a class="active" href="#">My Profile</a></li>
-                    <li><a class="hom" href="#">Messages</a></li>
-                    <li><a class="hom" href="#">Privacy</a></li>
-                    <li><a class="hom" href="#">Setting</a></li>
-                    <li><a class="hom" href="#">Contacts</a></li>
-                    <li><a class="hom" href="#">Calling</a></li>
-                    <li><a class="hom" href="#">Color mode</a></li>
-                    <li><a class="hom" href="#">Notifications</a></li>
-                    <li><a class="hom" href="#">More</a></li>
-                 </ul>
-        </div>
-   
-        <div class="r-side">
+    
+    <div class="r-side">
             <div class="cont">
-                <h3>icon</h3>
+                <i id="arrow" class="fa fa-arrow-left"></i>
+                <div id="camera" >
+                <i class="fa-solid fa-camera"></i>
+                <h3 class="add">Add Cover Photo</h3>
+                </div>
+                <div class="p-round2">
+                    <img class="img-name" src="/src/assets/images/OIP.jpg">
+                    <h2 class="name">Andre Onana<h2>
+                    <p class="username">@AndreShareAm</p>
+                </div>
             </div>
-            <div class="p-round2">
-                <img src="/src/assets/images/spd.jpg">
+
+            <div class="cont2">
+                <h3 class="bio">Add Bio/About</h3>
+                <input type="text" id="bio" placeholder="Write here... ">
+                <button id="save">Save</button>
+                </div>
+
+        <div class="cont3">
+            <div class="column-conts">
+            <div class="row-1">
+                <h3 class="cdn">Change Display Name</h3>
+                <input type="text" id="display" placeholder="Andre Onana ">
+                <button id="change1">Change</button>
+            </div>
+
+             <div class="row-2">
+                <h3 class="cdn">Change Username</h3>
+                <input type="text" id="display" placeholder="AndreshareAM ">
+                <button id="change2">Change</button>
+            </div>
+        </div>
+        <div class="column-conts-2">
+            <div class="row-3">
+                <h3 class="cdn">Change Email</h3>
+                <input type="text" id="display" placeholder="Onana02@gmail.com ">
+                <button id="change3">Change</button>
+            </div>
+
+             <div class="row-4">
+                <h3 class="cdn">Change Password</h3>
+                <input type="text" id="display" placeholder="Enter Old Password ">
+                <br />
+                <br />
+                <input type="text" id="display" placeholder="Enter New Password ">
+            </div>
+            </div>
+        </div>
+
             </div>
         </div>
     </section>

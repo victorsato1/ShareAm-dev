@@ -1,89 +1,210 @@
 /* This removes padding & margin from every container */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* text styles */
-  @font-face {
-    font-family: poppins-bold;
-    src: url(../fonts/Poppins-Bold.ttf);
-  }
-  @font-face {
-    font-family: poppins-regular;
-    src: url(../fonts/Poppins-Regular.ttf);
-  }
-  @font-face {
-    font-family: poppins-medium;
-    src: url(../fonts/Poppins-Medium.ttf);
-  }
-  @font-face {
-    font-family: Rubik;
-    src: url(../fonts/Rubik-VariableFont_wght.ttf);
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-  /* DO NOT REMOVE THE CODE ABOVE */
+/* text styles */
+@font-face {
+  font-family: poppins-bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: poppins-regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: poppins-medium;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+
+/* DO NOT REMOVE THE CODE ABOVE */
 
 
-  body{
-    background: #22074A;
-  }
-  .p-round{
-    padding-top: 59%;
-    margin-left: 30%;
-  }
-  img{
-    width: 80px;
-    height: 78px;
-    border-radius: 50%;
-    margin-bottom: 40px;
-  }
-  .hom{
-    margin-top: 40px;
-    margin-left:127px;
-  }
-  li{
-    list-style: none;
-    margin-bottom: 47px;
-  }
-  a{
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: cursive;
-  }
-  
-  .active{
-    background: gray;
-    padding-top: 15px;
-    padding-left: 125.5px;
-    padding-bottom: 15px;
-    padding-right: 83px;
-  }
-  .left-side{
-    width: 99.5%;
-    display: flex;
-  }
-  .all-l-side{
-    width: 21.5%;
-  }
-  .r-side{
-    margin-top: 53px;
-    width: 74%;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-  }
-  .cont{
-    height: 38.5vh;
-    margin-top: 10px;
-    margin-left: 53px;
-    margin-right: auto;
-    width: 90%;
-    background: dimgrey;
-  }
-  .p-round2{
-    margin-top: -9%;
-    margin-left: 7%;
-  }
+body{
+  background: #22074A;
+}
+/* SIDE BAR GOES HERE */
+
+
+/* STOP HERE!! */
+
+.r-side{
+  margin-top: 53px;
+  width: 74%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.cont{
+  height: 39.5vh;
+  margin-top: 10px;
+  margin-left: 53px;
+  margin-right: auto;
+  width: 90%;
+  background: lightgray;
+  border: 2px solid darkgray;
+}
+.img-name{
+  width: 63px;
+  height: 58px;
+  border-radius: 50%;
+}
+.p-round2{
+  margin-left: 2%;
+}
+.name{
+  color: #22074A;
+  margin-left: 79px;
+  margin-top: -59px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+  .username{
+  color: white;
+  margin-left: 79px;
+  margin-top: 7.5px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/*Next Line of code, the add bio section*/
+
+.cont2{
+height: 139.19px;
+margin-top: 60px;
+margin-left: 53px;
+margin-right: auto;
+margin-bottom: 110px;
+width: 90%;
+}
+.bio{
+color: #22074A;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+margin-bottom: 20px;
+}
+#bio{
+width: 100%;
+height: 37%;
+border-radius: 3px;
+border-color: lightgray;
+color: gray;
+padding-left: 10px;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+#bio:focus{
+outline: none;
+}
+#bio::placeholder{
+color: gray;
+padding-left: 10px;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+}
+#save{
+color: white;
+background-color: darkblue;
+margin-left: 84.6%;
+margin-top: 15px;
+padding: 12px 50px;
+border-radius: 7px;
+border: none;
+font-size: 15px;
+transition: all 1s ease-in 0.5s;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Next Line of code, Display Part */
+
+.cont3{
+height: 439.19px;
+margin: auto;
+align-items: center;
+width: 94%;
+}
+.column-conts, .column-conts-2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 7%;
+}
+.row-1, .row-2, .row-3, .row-4{
+  width: 50%;
+  height: 17vh;
+}
+#display{
+margin-left: 11%;
+width: 70%;
+height: 45%;
+border-radius: 5px;
+border-color: lightgray;
+color: gray;
+padding-left: 10px;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+#display:focus{
+outline: none;
+}
+#display::placeholder{
+color: gray;
+padding-left: 10px;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+}
+#change1, #change2, #change3{
+color: white;
+background-color: darkblue;
+position: relative;
+right: 100px;
+padding: 7px 15px;
+border-radius: 75px;
+border: 2px solid white;
+font-size: 10px;
+transition: all 1s ease-in 0.5s;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+}
+.cdn{
+margin-left: 11%;
+color: #22074A;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+margin-bottom: 20px;
+}
+#camera{
+   text-align: center;
+margin-top: 7.5%;
+  color: #22074A;
+  font-size: 23px;
+}
+.add{
+width: 100%;
+margin-right: 80%;
+color: #22074A;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+#arrow{
+  margin-top: 10px;
+  margin-left: 13px;
+    color: black;
+  font-size: 23px;
+}
